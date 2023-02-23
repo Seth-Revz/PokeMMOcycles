@@ -1,4 +1,4 @@
-Archiving. Up to date cycle tool is built into [Pokevents Discord Bot](https://github.com/Seth-Revz)
+Alternative cycle tool is built into [Pokevents Discord Bot](https://github.com/Seth-Revz)
 
 [Download Latest Build](https://github.com/Seth-Revz/PokeMMOcycles/releases/latest)
 
