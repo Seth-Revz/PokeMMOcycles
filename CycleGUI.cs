@@ -94,7 +94,7 @@ namespace PokeMMOCycleGUI
                     //((System.ComponentModel.ISupportInitialize)(pictureBoxPKM)).BeginInit();
 
                     pictureBoxPKM.ErrorImage = global::PokeMMOCycleGUI.Properties.Resources.imageNotFound;
-                    pictureBoxPKM.BackgroundImage = Image.FromFile("./ressources/pokemonFrame.png");
+                    pictureBoxPKM.BackgroundImage = Image.FromFile("./resources/pokemonFrame.png");
                     pictureBoxPKM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     pictureBoxPKM.Location = new System.Drawing.Point(padding + elmntWidth*i, 40);
                     pictureBoxPKM.Size = new System.Drawing.Size(elmntWidth - 5, elmntWidth + 8);
@@ -103,7 +103,7 @@ namespace PokeMMOCycleGUI
                     pictureBoxPKM.BackColor = System.Drawing.Color.Transparent;
                     try
                     {
-                        pictureBoxPKM.Image = Image.FromFile("./ressources/" + PokemonList[i, 0] + extention);
+                        pictureBoxPKM.Image = Image.FromFile("./resources/" + PokemonList[i, 0] + extention);
                     }
                     catch
                     {
@@ -134,7 +134,7 @@ namespace PokeMMOCycleGUI
                 pictureBoxZubat.BackColor = System.Drawing.Color.Transparent;
                 try
                 {
-                    pictureBoxZubat.Image = Image.FromFile("./ressources/" + PokemonList[PokemonList.GetLength(0) - 1, 0] + extention);
+                    pictureBoxZubat.Image = Image.FromFile("./resources/" + PokemonList[PokemonList.GetLength(0) - 1, 0] + extention);
                 }
                 catch
                 {

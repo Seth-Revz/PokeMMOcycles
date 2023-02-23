@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{10E19EB5-35BC-44E6-B73D-578D0218E33F}</ProjectGuid>
+    <ProjectGuid>{49458978-B219-46E3-805B-BFC2A35C1268}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PokeMMOCycleGUI</RootNamespace>

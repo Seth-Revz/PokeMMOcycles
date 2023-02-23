@@ -40,7 +40,7 @@ namespace PokeMMOCycleGUI
 
         private String[][,] cyclesTab;
 
-        public static readonly string xmlPath = "./Ressources/Cycles.xml";
+        public static readonly string xmlPath = "./Resources/Cycles.xml";
         public XmlDocument _doc;
 
         public PokeMMOCycle()

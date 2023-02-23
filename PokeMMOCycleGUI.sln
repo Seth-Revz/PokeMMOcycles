@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeMMOCycleGUI", "PokeMMOCycleGUI.csproj", "{49458978-B219-46E3-805B-BFC2A35C1268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49458978-B219-46E3-805B-BFC2A35C1268}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49458978-B219-46E3-805B-BFC2A35C1268}.Debug|x86.Build.0 = Debug|Any CPU
+		{49458978-B219-46E3-805B-BFC2A35C1268}.Release|x86.ActiveCfg = Release|Any CPU
+		{49458978-B219-46E3-805B-BFC2A35C1268}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EAD12CD-D998-4968-98F3-E160216AB929}
+	EndGlobalSection
+EndGlobal
