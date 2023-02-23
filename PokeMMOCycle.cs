@@ -35,7 +35,7 @@ namespace PokeMMOCycleGUI
         }
 
         public int nbCycle = 7;
-        public DateTime cycle1_Offset = new DateTime(2019, 7, 29, 0, 00, 00); // Cycle 1 starting time mesure (UTC)
+        public DateTime cycle1_Offset = new DateTime(2023, 2, 23, 6, 00, 00); // Cycle 1 starting time mesure (UTC)
         public TimeSpan cycleLength = new TimeSpan(6,0,0); // one cycle is 6 hours
 
         private String[][,] cyclesTab;
@@ -53,7 +53,7 @@ namespace PokeMMOCycleGUI
         {
             get
             {
-                return cyclesTab[Cycle - 1];
+                return cyclesTab[0];
             }
         }
 
@@ -97,7 +97,7 @@ namespace PokeMMOCycleGUI
                 }
                 catch (Exception e)
                 {
-                    if (e is System.IO.FileNotFoundException) // the file doesn't exist, let's create it with the last data available (05 july 2013)
+                    if (e is System.IO.FileNotFoundException) // the file doesn't exist, let's create it with the last data available (05 july 2013) Removed Shuckle.
                     {
                         done = false;
                         XmlElement cycles = _doc.CreateElement("Cycles");
@@ -110,7 +110,6 @@ namespace PokeMMOCycleGUI
                                                         {"Pineco", "10", "5-16"},
                                                         {"Mareep", "10", "18-28"},
                                                         {"Smeargle", "1", "19-29"},
-                                                        {"Shuckle", "10", "18-26"},
                                                         {"Stantler", "5", "18-28"},
                                                         {"Teddiursa", "10", "5-16"},
                                                         {"Zubat", "35", "5-16"},
@@ -120,7 +119,6 @@ namespace PokeMMOCycleGUI
                                                         {"Stantler", "6,5", "12-20"},
                                                         {"Snubbull", "8", "18-28"},
                                                         {"Poochyena", "8", "5-16"},
-                                                        {"Shuckle", "8", "18-26"},
                                                         {"Teddiursa", "8", "5-16"},
                                                         {"Smeargle", "8", "19-29"},
                                                         {"Zubat", "53", "10-20"},
@@ -144,7 +142,6 @@ namespace PokeMMOCycleGUI
                                                         {"Poochyena", "9", "12-16"},
                                                         {"Mareep", "10", "18-28"},
                                                         {"Teddiursa", "10", "12-20"},
-                                                        {"Shuckle", "10", "18-28"},
                                                         {"Spinda", "10", "19-29"},
                                                         {"Zubat", "45", "5-16"}
                                                     },
